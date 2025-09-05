@@ -65,7 +65,7 @@ python url_scanner.py http://bit.ly/fakebank-login
 
 ### 2️⃣ Scan URLs from File
 ```bash
-python url_scanner.py samples/urls.txt
+python url_scanner.py Suspicious__url.txt
 ```
 
 ---
