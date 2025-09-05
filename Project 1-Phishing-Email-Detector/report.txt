@@ -1,0 +1,6 @@
+Email Analysis Report
+=====================
+
+Suspicious keywords: urgent, verify, account
+Suspicious URLs: http://fake-login.com
+Result: PHISHING DETECTED
