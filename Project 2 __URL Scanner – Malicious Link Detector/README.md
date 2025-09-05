@@ -23,8 +23,8 @@ This project was developed with the assistance of **AI.**
 │── url_scanner.py
 │── requirement.txt
 │──samples/
-│ ├── urls.txt         # Example list of test URLs
-│ └── safe_urls.txt    # Example list of safe URLs
+│ ├── Suspicious__url.txt      # Example list of test URLs
+│ └── safe__urls.txt            # Example list of safe URLs
 └── reports/
 ├── report_2025-09-05_05-03-18(FAKEURLS).txt
 ├── report_2025-09-05_05-04-01(SAFEURLS).txt
