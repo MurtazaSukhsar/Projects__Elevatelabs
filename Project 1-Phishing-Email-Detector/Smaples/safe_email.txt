@@ -1,0 +1,11 @@
+From: support@trustedbank.com
+To: user@example.com
+Subject: Monthly Statement Available
+
+Dear Customer,
+
+Your monthly account statement is now available in your online banking portal.  
+Please log in securely through our official website or mobile app to view your statement.  
+
+Thank you for banking with us.  
+Trusted Bank Support Team
