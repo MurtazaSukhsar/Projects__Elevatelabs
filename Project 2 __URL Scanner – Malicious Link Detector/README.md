@@ -1,7 +1,7 @@
 # 🔎 URL Scanner – Malicious Link Detector
 
 A simple Python tool that scans URLs and flags potential phishing or malicious patterns using **rule-based detection**.  
-This project was developed with the assistance of **AI (ChatGPT)** to design detection logic, structure the code, and prepare professional documentation.
+This project was developed with the assistance of **AI.**
 
 ---
 
@@ -13,6 +13,32 @@ This project was developed with the assistance of **AI (ChatGPT)** to design det
 - Warns about **Punycode (IDN) domains** that may hide homograph attacks
 - Scans a **single URL** or a **list of URLs from a file**
 - ✅ **Automatically saves reports** in a `reports/` folder with a unique **timestamped filename**
+
+---
+
+  ## 📂 Project Structure
+  ```
+  URL-Scanner/
+│── README.md
+│── url_scanner.py
+│── samples/
+│ ├── urls.txt # Example list of test URLs
+│ └── safe_urls.txt # Example list of safe URLs
+└── reports/
+├── report_2025-09-05_18-42-31.txt
+├── report_2025-09-05_18-50-12.txt
+
+```
+---
+
+## ⚙️ Installation
+No external libraries are required (uses only Python built-ins).  
+
+Clone the repo and run:
+```bash
+git clone https://github.com/MurtazaSukhsar/URL-Scanner.git
+cd URL-Scanner.
+```
 
 ---
 
@@ -29,14 +55,62 @@ python url_scanner.py samples/urls.txt
 ```
 
 ---
+## 📊 Example Output
+
+### 🚨 Suspicious URL
+```
+============================================================
+               🔎  URL SCANNER - MALICIOUS LINK DETECTOR
+============================================================
+   👨‍💻 Author: Murtaza Sukhsarwala
+   🔗 GitHub: github.com/MurtazaSukhsar
+
+🔍 Scanning URL: http://bit.ly/fakebank-login
+⚠ Issues Found:
+   → Suspicious domain/shortener detected: bit.ly
+   → Keyword 'login' found in URL
+🚨 RESULT: SUSPICIOUS URL 🚨
+
+📄 Report saved to reports/report_2025-09-05_18-42-31.txt
+
+```
+### ✅ Safe URL
+```
+============================================================
+               🔎  URL SCANNER - MALICIOUS LINK DETECTOR
+============================================================
+   👨‍💻 Author: Murtaza Sukhsarwala
+   🔗 GitHub: github.com/MurtazaSukhsar
+
+🔍 Scanning URL: https://Youtube.com
+✅ No issues detected
+
+✔ RESULT: URL LOOKS SAFE ✔
+
+📄 Report saved to reports/report_2025-09-05_18-43-22.txt
+
+```
+---
 
 ## 📂 Reports
-All reports are saved automatically in the **reports/** folder with timestamped filenames, e.g.:
+All reports are saved automatically in the **reports/**
 ```
+folder with timestamped filenames, e.g.:
+
 reports/report_2025-09-05_18-45-22.txt
 ```
+---
+
+## ✅ Future Improvements
+- Integrate with VirusTotal / URLHaus APIs for real-time threat lookup
+
+- Add GUI version (Tkinter) for a desktop app
+
+- Export results to JSON/CSV for easier reporting
 
 ---
 
-👨💻 Author: Murtaza Sukhsarwala  
+##  👨‍💻Author
+**Murtaza Sukhsarwala**
+📧 Email: murtazasukhsarwala58@gmail.com  
 🔗 GitHub: [MurtazaSukhsar](https://github.com/MurtazaSukhsar)
