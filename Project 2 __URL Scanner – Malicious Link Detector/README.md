@@ -32,12 +32,23 @@ This project was developed with the assistance of **AI.**
 ---
 
 ## ⚙️ Installation
-No external libraries are required (uses only Python built-ins).  
-
-Clone the repo and run:
+1. Clone the repository:
 ```bash
 git clone https://github.com/MurtazaSukhsar/URL-Scanner.git
-cd URL-Scanner.
+cd URL-Scanner
+
+
+2. (Recommended) Create a *virtual environment* to keep dependencies isolated:
+
+python3 -m venv venv
+
+source venv/bin/activate      # On Linux/Mac
+
+
+3. Install dependencies (currently none required, script uses only Python built-ins):
+bash
+pip install --upgrade pip
+
 ```
 
 ---
