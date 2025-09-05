@@ -21,9 +21,10 @@ This project was developed with the assistance of **AI.**
   URL-Scanner/
 │── README.md
 │── url_scanner.py
-│── samples/
-│ ├── urls.txt # Example list of test URLs
-│ └── safe_urls.txt # Example list of safe URLs
+│── requirement.txt
+│──samples/
+│ ├── urls.txt         # Example list of test URLs
+│ └── safe_urls.txt    # Example list of safe URLs
 └── reports/
 ├── report_2025-09-05_18-42-31.txt
 ├── report_2025-09-05_18-50-12.txt
@@ -32,21 +33,23 @@ This project was developed with the assistance of **AI.**
 ---
 
 ## ⚙️ Installation
-1. Clone the repository:
 ```bash
+1. Clone the repository:
 git clone https://github.com/MurtazaSukhsar/URL-Scanner.git
 cd URL-Scanner
 
+3. pip install -r requirements.txt
 
-2. (Recommended) Create a *virtual environment* to keep dependencies isolated:
+
+4. (Recommended) Create a *virtual environment* to keep dependencies isolated:
 
 python3 -m venv venv
 
 source venv/bin/activate      # On Linux/Mac
 
 
-3. Install dependencies (currently none required, script uses only Python built-ins):
-bash
+5. Install dependencies (currently none required, script uses only Python built-ins):
+
 pip install --upgrade pip
 
 ```
