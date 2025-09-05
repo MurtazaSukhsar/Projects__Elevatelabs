@@ -45,7 +45,7 @@ cd URL-Scanner
 
 python3 -m venv venv
 
-source venv/bin/activate      # On Linux/Mac
+source venv/bin/activate      # On Linux
 
 
 5. Install dependencies (currently none required, script uses only Python built-ins):
