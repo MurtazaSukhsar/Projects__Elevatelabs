@@ -1,0 +1,24 @@
+URL Scan Report
+========================================
+
+URL: http://bit.ly/fakebank-login
+  - Suspicious domain/shortener detected: bit.ly
+  - Keyword 'login' found in URL
+  - Keyword 'bank' found in URL
+  RESULT: SUSPICIOUS
+
+URL: https://example.com
+  RESULT: SAFE
+
+URL: http://tinyurl.com/malicious-site
+  - Suspicious domain/shortener detected: tinyurl.com
+  RESULT: SUSPICIOUS
+
+URL: https://secure-bank-login.com/account/verify
+  - Keyword 'login' found in URL
+  - Keyword 'verify' found in URL
+  - Keyword 'secure' found in URL
+  - Keyword 'account' found in URL
+  - Keyword 'bank' found in URL
+  RESULT: SUSPICIOUS
+

@@ -1,0 +1,12 @@
+URL Scan Report
+========================================
+
+URL: https://www.youtube.com/watch
+  RESULT: SAFE
+
+URL: https://www.youtube.com
+  RESULT: SAFE
+
+URL: https://www.google.com
+  RESULT: SAFE
+
