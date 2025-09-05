@@ -1,0 +1,4 @@
+http://bit.ly/fakebank-login
+https://example.com
+http://tinyurl.com/malicious-site
+https://secure-bank-login.com/account/verify
