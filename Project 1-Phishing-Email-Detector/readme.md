@@ -39,7 +39,7 @@ source myenv/bin/activate
 
 ## ▶️ Usage
 ```bash
-python phishing_detector.py samples/phishing_email.txt
+python phishing_detector.py safe_email.txt
 ```
 
 ---
