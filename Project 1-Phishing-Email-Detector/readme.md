@@ -1,7 +1,7 @@
 # 📧 Phishing Email Detector 🚨  
 
 A Python-based tool to analyze email text files and detect potential phishing attempts.  
-This project was developed with the assistance of **AI (ChatGPT)** to improve detection logic.
+This project was developed with the assistance of **AI**
 
 ---
 
