@@ -101,5 +101,3 @@ python phishing_detector.py safe_email.txt
 📧 Email: murtazasukhsarwala58@gmail.com  
 🔗 GitHub: [MurtazaSukhsar](https://github.com/MurtazaSukhsar)  
 
-
-Using AI boosted productivity and allowed me to focus more on **cybersecurity concepts** rather than just syntax.
