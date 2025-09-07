@@ -18,7 +18,6 @@ This project was developed with the assistance of **AI (ChatGPT)** to improve de
 ```
 Phishing-Email-Detector/
 │── README.md
-│── requirements.txt
 │── phishing_detector.py
 │── report.txt
 └── samples/
@@ -34,7 +33,6 @@ git clone https://github.com/MurtazaSukhsar/project-1-Phishing-Email-Detector.gi
 cd Phishing-Email-Detector
 python3 -m venv myenv
 source myenv/bin/activate
-pip install -r requirements.txt
 ```
 
 ---
